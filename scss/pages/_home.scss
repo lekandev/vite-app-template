@@ -1,0 +1,31 @@
+.home {
+  &__wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .home__title {
+      font-size: 5rem;
+    }
+
+    .home__text {
+      max-width: 350px;
+      align-self: flex-end;
+    }
+  }
+
+  &__so-mandem-can-scroll {
+    h2 {
+      font-size: 4rem;
+    }
+
+    span {
+      font-size: 7rem;
+      text-transform: uppercase;
+      display: inline-block;
+      text-align: center;
+      margin-top: 10rem;
+    }
+  }
+}
