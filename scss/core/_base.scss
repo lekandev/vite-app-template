@@ -16,3 +16,25 @@ html {
 
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: $bgPrimary;
+  font-family: Clash Display;
+}
+
+section {
+  padding: 3rem;
+}
+
+nav,
+footer {
+  padding: 3rem;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+a {
+  @extend %link;
+}
