@@ -19,7 +19,7 @@ html {
 
 body {
   background-color: $bgPrimary;
-  font-family: Clash Display;
+  font-family: $textFont;
 }
 
 section {
@@ -29,6 +29,12 @@ section {
 nav,
 footer {
   padding: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $titleFont;
 }
 
 h2 {
