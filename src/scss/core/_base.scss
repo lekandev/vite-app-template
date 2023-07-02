@@ -17,9 +17,32 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 body {
   background-color: $bgPrimary;
   font-family: $textFont;
+}
+
+.scroll-path {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+}
+
+#scroll-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 7px;
+  height: 100%;
+  background: #222;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 section {
