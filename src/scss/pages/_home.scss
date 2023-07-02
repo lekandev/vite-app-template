@@ -16,6 +16,8 @@
   }
 
   &__so-mandem-can-scroll {
+    text-align: center;
+
     h2 {
       font-size: 4rem;
     }
@@ -24,8 +26,13 @@
       font-size: 7rem;
       text-transform: uppercase;
       display: inline-block;
-      text-align: center;
       margin-top: 10rem;
+      margin-bottom: 10rem;
+    }
+
+    img {
+      width: 100%;
+      max-width: 450px;
     }
   }
 }
