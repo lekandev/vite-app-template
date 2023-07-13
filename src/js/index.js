@@ -2,6 +2,9 @@ import Lenis from "@studio-freight/lenis";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+// file imports
+import "./three";
+
 // ----------------------------------------------------------------
 import { scrollbarComp } from "./components/scrollbar";
 scrollbarComp();
